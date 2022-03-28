@@ -290,12 +290,6 @@ ul > li:last-child {
   font-size: 22px;
 }
 
-@media screen and (min-width: 1171px) {
-
-
-}
-
-
  @media screen and (max-width: 1170px) {
 
   .page {
