@@ -2,6 +2,7 @@
   min-width: 1140px;
   height: 100%;
   margin: 0;
+  margin-top: -300px;
   padding: 0;
   font-family: "Poppins", Arial, sans-serif;
   font-size: 18px;
@@ -98,6 +99,20 @@
 .body a:active {
   color:#f2c100;
   text-decoration: underline;
+}
+
+.container {
+  padding-top: 30px;
+}
+
+.right_side {
+  float: right;
+  width: 58%;
+}
+
+.left_side {
+  float: left;
+  width: 40%;
 }
 
 .photo {
@@ -277,23 +292,6 @@ ul > li:last-child {
 
 @media screen and (min-width: 1171px) {
 
-  .container {
-    padding-top: 30px;
-  }
-
-  .right_side {
-    float: right;
-    width: 58%;
-  }
-
-  .left_side {
-    float: left;
-    width: 40%;
-  }
-
-  .page {
-    margin-top: -300px;
-  }
 
 }
 
@@ -302,6 +300,7 @@ ul > li:last-child {
 
   .page {
     min-width: 320px;
+    margin-top: 0;
   }
 
   .body {
@@ -384,6 +383,20 @@ ul > li:last-child {
 
   .active+.nav {
     top: 25px;
+  }
+
+  .container {
+    padding-top: 0;
+  }
+
+  .right_side {
+    float: none;
+    width: 100%;
+  }
+
+  .left_side {
+    float: none;
+    width: 100%;
   }
 
   .photo {
