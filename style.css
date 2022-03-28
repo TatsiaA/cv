@@ -2,6 +2,7 @@
   min-width: 1140px;
   height: 100%;
   margin: 0;
+  margin-top: -300px;
   padding: 0;
   font-family: "Poppins", Arial, sans-serif;
   font-size: 18px;
@@ -90,6 +91,11 @@
 .body a:active {
   color:#f2c100;
   text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  padding-top: 30px;
 }
 
 .photo {
@@ -271,24 +277,11 @@ ul > li:last-child {
   font-size: 22px;
 }
 
-@media screen and (min-width: 1171px) {
-
-  .container {
-    display: flex;
-    padding-top: 30px;
-  }
-
-  .page {
-    margin-top: -300px;
-  }
-
-}
-
-
  @media screen and (max-width: 1170px) {
 
   .page {
     min-width: 320px;
+    margin-top: 0;
   }
 
   .body {
@@ -372,6 +365,11 @@ ul > li:last-child {
 
   .active+.nav {
     top: 25px;
+  }
+
+  .container {
+    display: block;
+    padding-top: 0;
   }
 
   .photo {
