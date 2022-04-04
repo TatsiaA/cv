@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+width: 90%;
+height: max-content;
+margin: 0 auto;
+border: 1px solid #000;
+}
+
+.task-title,
+.task-hint {
+  text-align: center;
+}
+
+.task-solution {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 30px;
+  border: 1px dashed #000;
+}
+
+.square-1 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #900;
+  margin: 20px 0 20px 10px;
+  animation-duration: 4s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 5%;
+  }
+
+  to {
+    margin-left: 90%;
+  }
+}
+
+.square-2 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #900;
+  margin: 20px 0 20px 10px;
+  animation-duration: 4s;
+  animation-name: change-color;
+  animation-iteration-count: 30;
+}
+
+@keyframes change-color {
+  from {
+    background-color: #fff;
+  }
+
+  to {
+    background-color: #900;
+  }
+}
+
+.task-3 {
+  height: 400px;
+  padding: 10px;
+}
+
+.square-3 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #900;
+  margin: 20px 0 20px 10px;
+  animation-duration: 8s;
+  animation-name: rectangular;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rectangular {
+  0% {
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+
+  25% {
+    margin-left: 50%;
+    margin-top: 0%;
+  }
+
+  50% {
+    margin-left: 50%;
+    margin-top: 25%;
+  }
+
+  75% {
+    margin-left: 0%;
+    margin-top: 25%;
+  }
+
+  100% {
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+
+}
+
+.square-4 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #900;
+  margin: 20px 0 20px 10px;
+  animation-duration: 4s;
+  animation-name: slideinout;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slideinout {
+  0% {
+    margin-left: 5%;
+  }
+
+  50% {
+    margin-left: 90%;
+  }
+
+  100% {
+    margin-left: 5%;
+  }
+}
+
+.task-5-wrapper {
+  margin: 20px auto;
+  width: 50%;
+  height: 30px;
+  border: 1px solid red;
+}
+
+.task-5-inner {
+  width: 0%;
+  height: 100%;
+  background-color: #900;
+  animation-duration: 16s;
+  animation-name: filling;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes filling {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.task-6-hover {
+  padding: 10px;
+  border: 1px solid red;
+  margin: 20px 0 30px 10px;
+  width: 30%;
+}
+
+.task-6-active {
+  width: 50px;
+  height: 50px;
+  margin: 20px 0 20px 10px;
+  border: 1px solid blue;
+  animation-name: movement;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+  animation-play-state: paused;
+}
+
+.task-6-hover:hover + .task-6-active {
+  animation-play-state: running;
+}
+
+@keyframes movement {
+  from {
+    width: 10%;
+  }
+
+  to {
+    width: 90%;
+  }
+}
