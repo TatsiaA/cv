@@ -1,0 +1,27 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "test-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TatsiaA/cv.git"
+  },
+  "author": "tatsiaa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TatsiaA/cv/issues"
+  },
+  "homepage": "https://github.com/TatsiaA/cv#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "fonts": "^0.0.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
