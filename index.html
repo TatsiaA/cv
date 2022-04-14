@@ -9,7 +9,7 @@
 </head>
 <body class="body">
   <header class="header">
-    <div class="header__akad">akad.</div>
+    <div id="home" class="header__akad">akad.</div>
     <div class="header__menu">
       <span class="tp"></span>
       <span class="ct"></span>
@@ -27,10 +27,10 @@
 
 
       <div class="main__central">
-        <section class="main__central-about">
+        <section id="about" class="main__central-about">
           <div class="main__central-title">
             <h2 class="title">What we do</h2>
-            <p class="title-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="title-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore<br /> magna aliqua.</p>
           </div>
           <div class="main__central-content">
             <div class="main__central-content-all">
@@ -56,7 +56,7 @@
           </div>
 
         </section>
-        <section class="main__central-ads">
+        <section id="ads" class="main__central-ads">
           <div class="main__ad">
             <div class="main__ad-pic">
               <img src="/assets/images/cardio.png" alt="">
@@ -86,7 +86,7 @@
             <div class="main__ad-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</div>
           </div>
         </section>
-        <section class="main__central-prices">
+        <section id="plans" class="main__central-prices">
           <div class="main__central-title">
             <h2 class="title">pricing plans</h2>
             <p class="title-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -148,7 +148,7 @@
 
 
       </div>
-      <div class="main__bottom">
+      <div id="C" class="main__bottom">
         <div class="main__work">
           <div class="main__work-ask">YOU THINK WE'RE COOL? LET'S WORK TOGETHER</div>
           <div class="main__work-btn">
@@ -157,7 +157,7 @@
         </div>
         <div class="main__letter">
           <div class="main__letter-content">
-            <h3 class="main__letter-title">STAY INFORMED WITH OUR NEWSLETTER</h3>
+            <h3 class="main__letter-title">STAY INFORMED WITH OUR <br />NEWSLETTER</h3>
             <p class="main__letter-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           <form action="" method="post" class="form">
@@ -170,7 +170,36 @@
     </div>
   </main>
   <footer class="footer">
-    <a href="https://www.flaticon.com/ru/free-icons/" title="иконки" class="icons">Предпочтения иконки от Creatype - Flaticon</a>
+    <div class="footer__navigation">
+      <ul class="footer__navigation-list">
+              <li> <a href="/#home">Home</a> </li>
+              <li>-</li>
+              <li> <a href="/#about">about us</a> </li>
+              <li>-</li>
+              <li> <a href="#plans">services</a> </li>
+              <li>-</li>
+              <li> <a href="#ads">portfolio</a> </li>
+              <li>-</li>
+              <li> <a href="#blog">blog</a> </li>
+              <li>-</li>
+              <li> <a href="#C">contact us</a> </li>
+
+      </ul>
+    </div>
+    <div class="footer__rights">
+      <p>Created by akhouad 2016. All Rights Reserved</p>
+      <a href="https://www.flaticon.com/ru/free-icons/" title="net-icons" target="_blank" class="icons">Предпочтения иконки от Creatype - Flaticon</a>
+    </div>
+    <div id="blog" class="footer__nets">
+      <ul class="socialnets">
+        <li> <a href="https://www.facebook.com/" target="_blank"> <img class="socialnets_item" src="./assets/svg/facebook.svg" alt="Facebook"> </a> </li>
+        <li> <a href="http://twitter.com/" target="_blank"> <img class="socialnets_item" src="./assets/svg/twitter.svg" alt="Twitter"> </a> </li>
+        <li> <a href="https://www.youtube.com/user/" target="_blank"> <img class="socialnets_item" src="./assets/svg/youtube.svg" alt="Youtube"> </a> </li>
+        <li> <a href="https://www.linkedin.com/" target="_blank"> <img class="socialnets_item" src="./assets/svg/linkedin.svg" alt="LinkedIn"> </a> </li>
+        <li> <a href="https://www.pinterest.ru/" target="_blank"> <img class="socialnets_item" src="./assets/svg/Pinterest.svg" alt="Pinterest"> </a> </li>
+        <li> <a href="https://www.instagram.com/" target="_blank"> <img class="socialnets_item" src="./assets/svg/instagram.svg" alt="Instagram"> </a> </li>
+      </ul>
+    </div>
   </footer>
   <script src="/index.js" defer></script>
 </body>
