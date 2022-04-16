@@ -1,0 +1,162 @@
+@media screen and (max-width: 700px) {
+
+  .body {
+    width: 500px;
+  }
+
+  .header {
+    margin: 2rem 3rem;
+    width: calc(100% - 6rem);
+  }
+
+  .header__akad {
+    font-size: 1.4rem;
+  }
+
+  .main__top {
+    height: 30rem;
+  }
+
+  .main__title-additional {
+    font-size: 1.2rem;
+  }
+
+  .main__title-h1 {
+    font-size: 2.6rem;
+  }
+
+  .main__central {
+    padding: 8rem 6rem;
+  }
+
+  .title::before {
+    top: 20px;
+  }
+
+  .title:hover {
+    font-size: 2.8rem;
+    margin-bottom: -1rem;
+  }
+
+  .title-text {
+    width: 90%;
+    margin-bottom: 5.2rem;
+    text-align: center;
+    letter-spacing: 0.4px;
+  }
+
+  .title,
+  .plan__title,
+  .main__work-ask {
+    font-size: 2.3rem;
+  }
+
+  .main__central-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__central-content-all {
+    margin-bottom: 1rem;
+  }
+
+  .main__central-content-text {
+    padding-bottom: 2rem;
+  }
+
+  .main__central-content-points {
+    width: 100%;
+    margin: 0 auto 2rem;
+  }
+
+  .col2 .main__point {
+    width: 50%;
+  }
+
+  .main__central-pic {
+    margin-top: 2rem;
+  }
+
+  .main__central-ads {
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    margin-bottom: -2rem;
+  }
+
+  .main__ad {
+    width: 50%;
+    padding: 0 10px;
+    margin-top: 4rem;
+  }
+
+  .main__ad-pic::before {
+    left: 50px;
+  }
+
+  .main__ad-title {
+    padding: 0 10px;
+  }
+
+  .main__central-prices {
+    margin-top: 9rem;
+  }
+
+  .main__central-plans {
+    display: block;
+  }
+
+  .main__central-plan {
+    width: 80%;
+    padding: 20px;
+    margin: 3rem auto 5rem;
+    border-top: 6px solid rgba(123, 238, 199, 0.7);
+  }
+
+  .main__central-plan:first-child {
+    margin: auto;
+  }
+
+  .main__central-plan:last-child {
+    margin: 3rem auto 0;
+  }
+
+  .main__bottom {
+    display: block;
+    width: 100%;
+    padding: 3.7rem 8rem 5rem;
+    background-color: rgba(123, 238, 199, 1);
+  }
+
+  .main__work-btn {
+    position: relative;
+    left: 52%;
+    margin: 0 0 5rem;
+  }
+
+  .main__letter {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .main__letter-title {
+    margin-top: 0;
+    font-size: 2.2rem;
+  }
+
+  .main__letter-text {
+    font-size: 1.3rem;
+  }
+
+  .footer__navigation {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+
+  .footer__rights {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+}

@@ -1,0 +1,47 @@
+@media screen and (max-width: 1300px) {
+
+  .body {
+    width: 900px;
+  }
+
+  .main__central-content-text {
+    padding-bottom: 2rem;
+  }
+
+  .main__central-ads {
+    padding-top: 10rem;
+    margin-bottom: -2rem;
+  }
+
+  .main__ad {
+    padding: 0 20px;
+  }
+
+  .main__ad-pic::before {
+    left: 50px;
+  }
+
+  .main__ad-title {
+    padding: 0 10px;
+  }
+
+  .main__central-plan {
+    padding: 20px;
+    margin: 1rem 1rem 1rem 1rem;
+    border-top: 6px solid rgba(123, 238, 199, 0.7);
+  }
+
+  .footer__navigation {
+    width: 100%;
+  }
+
+  .footer__rights {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    font-size: 1.4rem;
+    color: #9A9A9A;
+  }
+
+}

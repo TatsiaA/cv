@@ -1,0 +1,91 @@
+@media screen and (max-width: 900px) {
+
+  .body {
+    width: 700px;
+  }
+
+  .main__central {
+    padding: 8rem 6rem;
+  }
+
+  .main__central-content-text {
+    padding-bottom: 2rem;
+  }
+
+  .main__central-content-points {
+    width: 250%;
+    margin: 0 auto;
+  }
+
+  .col2 .main__point {
+    width: 32%;
+  }
+
+  .main__central-ads {
+    flex-wrap: wrap;
+    padding-top: 3rem;
+    margin-bottom: -2rem;
+  }
+
+  .main__ad {
+    width: 50%;
+    padding: 0 20px;
+    margin-top: 4rem;
+  }
+
+  .main__ad-pic::before {
+    left: 100px;
+  }
+
+  .main__ad-title {
+    padding: 0 10px;
+  }
+
+  .main__central-prices {
+    margin-top: 10rem;
+  }
+
+  .main__central-plans {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main__central-plan {
+    width: 45%;
+    padding: 20px;
+    margin: auto;
+    border-top: 6px solid rgba(123, 238, 199, 0.7);
+  }
+
+  .main__central-plan:last-child {
+    margin: 3rem auto 0;
+  }
+
+  .main__bottom {
+    display: block;
+    width: 100%;
+    padding: 3.7rem 8rem 5rem;
+    background-color: rgba(123, 238, 199, 1);
+  }
+
+  .main__work-btn {
+    position: relative;
+    left: 72%;
+    margin: 0 0 5rem;
+
+  }
+
+  .footer__navigation {
+    width: 100%;
+  }
+
+  .footer__rights {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    font-size: 1.4rem;
+    color: #9A9A9A;
+  }
+
+}

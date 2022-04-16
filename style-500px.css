@@ -1,0 +1,174 @@
+@media screen and (max-width: 500px) {
+
+  html {
+    font-size: 9px;
+  }
+
+  .body {
+    width: 300px;
+  }
+
+  .header {
+    margin: 2rem 3rem;
+    width: calc(100% - 6rem);
+  }
+
+  .header__akad {
+    font-size: 1.4rem;
+  }
+
+  .main__top {
+    height: 30rem;
+  }
+
+  .main__title-additional {
+    font-size: 1.2rem;
+  }
+
+  .main__title-h1 {
+    font-size: 2.6rem;
+  }
+
+  .main__central {
+    padding: 6rem 2rem;
+  }
+
+  .title::before {
+    top: 20px;
+  }
+
+  .title:hover {
+    font-size: 2.8rem;
+    margin-bottom: -1rem;
+  }
+
+  .title-text {
+    width: 100%;
+    margin-bottom: 5.2rem;
+    text-align: center;
+    letter-spacing: 0.4px;
+  }
+
+  .title,
+  .plan__title,
+  .main__work-ask {
+    width: 90%;
+    font-size: 2.3rem;
+    text-align: center;
+  }
+
+  .main__central-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__central-content-all {
+    margin-bottom: 1rem;
+  }
+
+  .main__central-content-text {
+    padding-bottom: 2rem;
+  }
+
+  .main__central-content-points {
+    width: 100%;
+    margin: 0 auto 2rem;
+  }
+
+  .col2 .main__point {
+    width: 90%;
+  }
+
+  .main__central-pic {
+    width: 100%;
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  .main__central-ads {
+    display: block;
+    padding-top: 2rem;
+    margin-bottom: -2rem;
+  }
+
+  .main__ad {
+    width: 80%;
+    padding: 0 10px;
+    margin: 4rem auto 0;
+  }
+
+  .main__ad-pic::before {
+    left: 60px;
+  }
+
+  .main__ad-title {
+    padding: 0 10px;
+  }
+
+  .main__central-prices {
+    margin-top: 9rem;
+  }
+
+  .main__central-plans {
+    display: block;
+  }
+
+  .main__central-plan {
+    width: 92%;
+    padding: 20px;
+    margin: 3rem auto 5rem;
+    border-top: 6px solid rgba(123, 238, 199, 0.7);
+  }
+
+  .main__central-plan:first-child {
+    margin: auto;
+  }
+
+  .main__central-plan:last-child {
+    margin: 3rem auto 0;
+  }
+
+  .main__bottom {
+    display: block;
+    width: 100%;
+    padding: 3rem 3rem 5rem;
+    background-color: rgba(123, 238, 199, 1);
+  }
+
+  .main__work-btn {
+    position: relative;
+    left: 35%;
+    margin: 0 0 5rem;
+  }
+
+  .main__letter {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .main__letter-title {
+    margin-top: 0;
+    font-size: 2.2rem;
+  }
+
+  .main__letter-text {
+    font-size: 1.3rem;
+  }
+
+  .footer {
+    margin: 3.5rem 0;
+  }
+
+  .footer__navigation {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+
+  .footer__rights {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+}
