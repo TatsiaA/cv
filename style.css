@@ -79,7 +79,9 @@ html {
 .header {
   position: absolute;
   width: calc(100% - 16rem);
+  -ms-display: flex;
   display: flex;
+  -ms-justify-content: space-between;
   justify-content: space-between;
   margin: 2.8rem 8rem;
   z-index: 2;
@@ -92,10 +94,13 @@ html {
 }
 
 .header__menu {
+  -ms-display: flex;
   display: flex;
   width: 30px;
   height: 17px;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-justify-content: space-between;
   justify-content: space-between;
   transition: all 0.3s ease 0s;
 }
@@ -142,8 +147,11 @@ html {
 
 .main__top {
   position: relative;
+  -ms-display: flex;
   display: flex;
+  -ms-align-items: flex-end;
   align-items: center;
+  -ms-justify-content: center;
   justify-content: center;
   width: 100%;
   height: 49rem;
@@ -157,8 +165,6 @@ html {
   width: 100%;
   height: 100%;
   background:
-      /* linear-gradient(217deg, rgba(225, 0, 255, 0.8), rgba(255,0,0,0) 70.71%),
-      linear-gradient(127deg, rgba(0, 255, 179, 0.8), rgba(0,255,0,0) 70.71%), */
       linear-gradient(306deg,
       rgba(123, 121, 121, 0.3) 20%,
       rgba(85, 85, 85, 0.4) 20%,
@@ -175,26 +181,6 @@ html {
        rgba(85, 85, 85, 0.3) 60%,
        rgba(85, 85, 85, 0.3) 80%,
        rgba(135, 133, 133, 0.1) 80%,
-       /* rgba(148, 148, 148, 0.1) 90%),
-       linear-gradient(345deg,
-       rgba(198, 198, 185, 0.5) 18%,
-       rgba(255, 255, 0, 0.7) 18%,
-       rgba(255, 255, 0, 0.7) 22%,
-       rgba(198, 198, 185, 0.5) 22%),
-       linear-gradient(345deg,
-       rgba(198, 198, 185, 0.5) 48%,
-       rgba(255, 255, 0, 0.7) 48%,
-       rgba(255, 255, 0, 0.7) 53%,
-       rgba(198, 198, 185, 0.5) 53%),
-       linear-gradient(325deg,
-       rgba(198, 198, 185, 0.5) 55%,
-       rgba(0, 255, 255, 0.7) 55%,
-       rgba(0, 255, 255, 0.7) 60%,
-       rgba(198, 198, 185, 0.5) 60%),
-       linear-gradient(325deg,
-       rgba(198, 198, 185, 0.5) 75%,
-       rgba(0, 255, 255, 0.7) 75%,
-       rgba(0, 255, 255, 0.7) 80%, */
        rgba(198, 198, 185, 0.5) 80%);
   -webkit-transition: all 0.34s ease;
   transition: all 0.34s ease;
@@ -246,7 +232,6 @@ html {
       rgba(0, 255, 255, 0.7) 75%,
       rgba(0, 255, 255, 0.7) 80%,
       rgba(198, 198, 185, 0.5) 80%);
-
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.34s ease;
@@ -285,9 +270,13 @@ html {
 }
 
 .main__central-title {
+  -ms-display: flex;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-justify-content: center;
   justify-content: center;
+  -ms-align-items: center;
   align-items: center;
 }
 
@@ -329,8 +318,11 @@ html {
 }
 
 .main__central-content {
+  -ms-display: grid;
   display: grid;
+  -ms-grid-template-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
+  -ms-grid-column-gap: 2rem;
   grid-column-gap: 2rem;
 }
 
@@ -386,8 +378,9 @@ html {
 }
 
 .main__central-ads {
+  -ms-display: flex;
   display: flex;
-  flex-wrap: nowrap;
+  -ms-justify-content: space-between;
   justify-content: space-between;
   padding-top: 14.5rem;
   margin-bottom: -2rem;
@@ -435,7 +428,9 @@ html {
 }
 
 .main__central-plans {
+  -ms-display: grid;
   display: grid;
+  -ms-grid-template-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -522,7 +517,9 @@ html {
 }
 
 .main__bottom {
+  -ms-display: grid;
   display: grid;
+  -ms-grid-template-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   width: 100%;
   padding: 3.7rem 8rem 5rem;
@@ -541,7 +538,6 @@ html {
 .main__work-ask:hover {
   color: rgba(255, 255, 0, 0.7);
   transition: 0.5s ease-in-out;
-
 }
 
 .main__work-btn {
@@ -588,6 +584,7 @@ html {
 }
 
 .form {
+  -ms-display: flex;
   display: flex;
   width: 100%;
 }
@@ -621,6 +618,7 @@ html {
 }
 
 .footer {
+  -ms-display: flex;
   display: flex;
   flex-wrap: wrap;
   margin: 3.5rem 8rem;
@@ -631,9 +629,12 @@ html {
 }
 
 .footer__navigation-list {
+  -ms-display: flex;
   display: flex;
+  -ms-justify-content: space-between;
   justify-content: space-between;
   text-transform: uppercase;
+  color: #9A9A9A;
 }
 
 .footer__navigation-list li a {
@@ -651,9 +652,11 @@ html {
 }
 
 .footer__rights {
+  -ms-display: flex;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
-  justify-content: flex-start;
+  -ms-align-items: flex-end;
   align-items: flex-end;
   width: 50%;
   font-size: 1.4rem;
@@ -684,6 +687,14 @@ html {
   opacity: 0.4;
 }
 
+.socialnets_item:hover {
+  transform: scale(1.5, 1.5);
+  transition: all 0.14s ease-in-out;
+}
+
+.hidden {
+  display: none;
+}
 
 @font-face {
   font-family: "Montserrat";
