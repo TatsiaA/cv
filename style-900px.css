@@ -4,6 +4,12 @@
     width: 700px;
   }
 
+  .main__top {
+    margin-left: calc((100vw - 700px) / (-2));
+    height: 30rem;
+    width: 100vw;
+  }
+
   .main__central {
     padding: 8rem 6rem;
   }

@@ -18,7 +18,9 @@
   }
 
   .main__top {
+    margin-left: calc((100vw - 300px) / (-2));
     height: 30rem;
+    width: 100vw;
   }
 
   .main__title-additional {
